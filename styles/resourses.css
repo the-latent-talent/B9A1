@@ -1,0 +1,36 @@
+body {
+    font-family: Merriweather;
+}
+
+header{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-titles {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    text-align: center;
+}
+.party-header{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+    text-align: center;
+    line-height: normal;
+}
+.party-content{
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    width: 600px;
+    font-style: normal;
+    font-weight: 900;
+}
