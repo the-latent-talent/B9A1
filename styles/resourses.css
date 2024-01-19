@@ -1,3 +1,4 @@
+/* header part */
 body {
     font-family: Merriweather;
 }
@@ -33,4 +34,216 @@ header{
     width: 600px;
     font-style: normal;
     font-weight: 900;
+}
+/* main part */
+.discount-offer{
+    margin-top: 100px;
+    display: block;
+   text-align: center;
+   font-family: Inter;
+   line-height: normal;
+}
+.discount-title{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-deals{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-catagories{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.new-year{
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+}
+.welcome{
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.midnight-party{
+background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
+width: 1320px;
+height: 600px;
+flex-shrink: 0;
+margin-top: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.party-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+.join{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.party-photo{
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.party-schedule{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.party-time{
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.party-sub-schedule{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.schedule-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.schedule-title .schedule-title-head{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.button-schedule{
+    color: #FFF;
+    background: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    border: 0;
+    border-radius: 16px;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 20px 30px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.subscribe{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-section{
+    margin-top: 80px;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.newsletter{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.news-description{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.placehold-btn-section{
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+background: #FFF;
+align-items: center;
+justify-content: center;
+padding-right: 680px;
+}
+.subscribe-placeholder{
+    border: 0;
+    align-items: center;
+    color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.subscribe-btn{
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+
 }
